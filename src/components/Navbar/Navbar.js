@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom";
 
 import { Button } from '../common/button/Button';
+import { Labels } from '../../constants/labels';
+
 
 import './Navbar.css'
 
@@ -31,8 +33,8 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        Bayshore Musallah
-                        <i className="fa-solid fa-mosque margin-left-10"></i>
+                        <i className="fa-solid fa-mosque margin-right-10"></i>
+                        {Labels.mosqueTitle}
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -54,14 +56,22 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link
-                                to='/products'
+                                to='/events'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Products
+                                Events
                             </Link>
                         </li>
-
+                        <li className='nav-item'>
+                            <Link
+                                to='/donation'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Donation
+                            </Link>
+                        </li>
                         <li>
                             <Link
                                 to='/sign-up'

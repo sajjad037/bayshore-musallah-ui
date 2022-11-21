@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Cards from '../../components/cards/Cards';
+import PrayerTable from '../../components/prayer-table/PrayerTable';
 import Footer from '../../components/footer/Footer';
 import HeroSection from '../../components/hero/HeroSection';
 
@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <Cards />
+      <PrayerTable />
       <Footer />
     </>
   );
