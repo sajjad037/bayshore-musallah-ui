@@ -12,7 +12,7 @@ function PrayerTable() {
 
   var [date, setDate] = useState(new Date());
 
-  function GetTime(date) {
+  function GetTime(date: Date) {
 
     // Creating variables to hold time.
     var TimeType, hour, minutes, seconds;

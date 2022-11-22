@@ -23,7 +23,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={() => console.log('hey')}
         >
           UP COMING EVENTS <i className="fa-solid fa-calendar-days"></i>
         </Button>
