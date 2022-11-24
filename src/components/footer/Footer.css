@@ -1,6 +1,7 @@
 .footer-container {
-    /* background-color: #242424; */
-    background-color: #348c8c;
+    /*background-color: #242424; black*/
+    /* background-color: #348c8c; green*/
+    background-color:  #2741bf; 
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;

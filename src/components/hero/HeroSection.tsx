@@ -1,6 +1,5 @@
-import React from 'react'
 import {Button} from '../common/button/Button'
-import { Labels } from '../../constants/labels';
+import { Mosque } from '../../constants/labels';
 
 import "./HeroSection.css"
 import "../../App.css"
@@ -9,8 +8,8 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
-      <h1>{Labels.mosqueTitle}</h1>
-      <p>{Labels.mosqueDescription}</p>
+      <h1>{Mosque.title}</h1>
+      <p>{Mosque.description}</p>
       <div className='hero-btns'>
         <Button
           className='btns'
