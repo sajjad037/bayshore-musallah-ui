@@ -1,8 +1,7 @@
-import React from 'react';
 import './Footer.css';
 import { Button } from '../common/button/Button';
 import { Link } from 'react-router-dom';
-import { Labels } from '../../constants/labels';
+import { Mosque } from '../../constants/labels';
 
 function Footer() {
     return (
@@ -68,10 +67,10 @@ function Footer() {
                             {/* TRVL
                             <i className='fab fa-typo3' /> */}
                             <i className="fa-solid fa-mosque margin-right-10"></i>
-                            {Labels.mosqueTitle}
+                            {Mosque.title}
                         </Link>
                     </div>
-                    <small className='website-rights'>{Labels.mosqueTitle} © 2022</small>
+                    <small className='website-rights'>{Mosque.title} © 2022</small>
                     <div className='social-icons'>
                         <Link
                             className='social-icon-link facebook'

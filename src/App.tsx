@@ -1,7 +1,6 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/NavigationBar";
 import Home from './pages/home/Home';
 import Services from './pages/services/Services';
 import Events from './pages/events/Events';
@@ -17,7 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' exact element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/services' element={<Services />} />
           <Route path='/events' element={<Events />} />
           <Route path='/donation' element={<Donation />} />
