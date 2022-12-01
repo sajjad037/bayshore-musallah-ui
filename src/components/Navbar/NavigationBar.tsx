@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from 'react'
-import { Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useLocation } from "react-router-dom";
-import { pagePaths } from '../../constants/pagePaths'
 
+import { pagePaths } from '../../constants/pagePaths'
 import { Mosque } from '../../constants/labels';
 
 
@@ -33,9 +30,9 @@ function NavigationBar() {
                         </Nav>
                         <Nav activeKey={location.pathname}>
                             <Nav.Link href={pagePaths.donation}>Donation</Nav.Link>
-                            <Button variant="outline-info">LOGIN</Button>
+                            <Button variant="outline-info">Contact Us</Button>
                             <Nav.Link eventKey={2} href="#memes">
-                                My Account
+                                About Us
                             </Nav.Link>
                         </Nav>
 

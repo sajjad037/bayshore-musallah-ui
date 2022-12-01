@@ -1,8 +1,8 @@
 .footer-container {
     /*background-color: #242424; black*/
     /* background-color: #348c8c; green*/
-    background-color:  #2741bf; 
-    padding: 4rem 0 2rem 0;
+    background-color: #2741bf;
+    padding: 2rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,12 +13,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    margin-bottom: 24px;
-    padding: 24px;
     color: #fff;
+    margin-top: 10px;
 }
 
 .footer-subscription>p {
@@ -27,8 +23,26 @@
 }
 
 .footer-subscription-heading {
-    margin-bottom: 24px;
-    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-visit-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    min-width: 300px;
+    margin-top: 10px;
+}
+
+.footer-visit-us-address {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-visit-us-address>a {
+    color: #fff;
 }
 
 .footer-subscription-text {
@@ -61,11 +75,11 @@
 .footer-link-items {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin: 16px;
+    align-items: center;
     text-align: left;
-    width: 160px;
+    width: 100%;
     box-sizing: border-box;
+    margin-top: 10px;
 }
 
 .footer-link-items h2 {
@@ -102,7 +116,6 @@
 }
 
 .social-media {
-    max-width: 1000px;
     width: 100%;
 }
 
@@ -110,8 +123,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    max-width: 1000px;
+    width: 100%;
     margin: 40px auto 0 auto;
 }
 
