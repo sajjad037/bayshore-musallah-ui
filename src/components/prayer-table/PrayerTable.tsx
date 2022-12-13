@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 
 // import { Aladhan } from '../../constants/values'
-import { AppService } from '../services/AppService'
+import { AladhanAPI } from '../../api-services/AladhanAPI'
 import {
   getReadableCurrentDate,
   getReadableCurrentTime,
@@ -17,7 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../App.css"
 
 function PrayerTable() {
-  const apiService = useMemo(() => new AppService(), []);
+  const apiService = useMemo(() => new AladhanAPI(), []);
     // const prayTable: iPrayerTable = Aladhan.getStaticPrayerTable(timeIn24Format)
 
   var [currentTime, setCurrentTime] = useState<string>("");

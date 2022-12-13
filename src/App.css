@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.events,
 .donation,
 .sign-up {
     display: flex;
@@ -18,21 +18,23 @@
 }
 
 .services {
-    background-image: url('/public/images/img-2.jpg');
+    background-image: url('/public/images/Services-Bayshore-Musallah.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 20%);
 }
 
-.products {
-    background-image: url('/public/images/img-1.jpg');
+.events {
+    background-image: url('/public/images/Events.png');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 20%);
 }
 
 .sign-up {

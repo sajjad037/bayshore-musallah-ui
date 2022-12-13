@@ -1,11 +1,11 @@
 import axios from "axios"
 
-import { getCurrentDateDD_MM_YYYY, convertTime, addMinutesToGivenTime } from '../../utils/dateTimeUtils'
-import { iIslamicDate, iPrayerTable, iPrayerTime, iPrayTime } from '../../types/aladhan'
-import { Location, Aladhan } from '../../constants/values'
-import { PrayerName } from '../../constants/labels'
+import { getCurrentDateDD_MM_YYYY, convertTime, addMinutesToGivenTime } from '../utils/dateTimeUtils'
+import { iIslamicDate, iPrayerTable, iPrayerTime, iPrayTime } from '../types/aladhan'
+import { Location, Aladhan } from '../constants/values'
+import { PrayerName } from '../constants/labels'
 
-export class AppService {
+export class AladhanAPI {
 
     public async getIslamicDate(): Promise<any> {
         const response = await axios.get(`http://api.aladhan.com/v1/gToH?date=${getCurrentDateDD_MM_YYYY()}`);

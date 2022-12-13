@@ -109,9 +109,9 @@ function Footer() {
                                     className='social-icon-link twitter'
                                     to='/'
                                     target='_blank'
-                                    aria-label='LinkedIn'
+                                    aria-label='WhatsApp'
                                 >
-                                    <i className='fab fa-linkedin' />
+                                    <i className='fab fa-whatsapp' />
                                 </Link>
                             </div>
                         </Col>

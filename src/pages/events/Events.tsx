@@ -7,7 +7,7 @@ import '../../App.css';
 export default function Events() {
     return (
         <>
-          <h1 className='products'>Events</h1>
+          <h1 className='events'>Events</h1>
           <Cards />
           <Footer />
         </>
