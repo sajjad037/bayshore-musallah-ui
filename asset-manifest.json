@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/%7Brepo-name%7D/static/css/main.dbd9bf11.css",
-    "main.js": "/%7Brepo-name%7D/static/js/main.769e937b.js",
-    "static/media/img-2.jpg": "/%7Brepo-name%7D/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
-    "static/media/Services-Bayshore-Musallah.png": "/%7Brepo-name%7D/static/media/Services-Bayshore-Musallah.85dbf7a9ced842c8170b.png",
-    "static/media/Events.png": "/%7Brepo-name%7D/static/media/Events.7710b26d932b755f0842.png",
-    "static/media/img-8.jpg": "/%7Brepo-name%7D/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
-    "static/media/1.28.jpg": "/%7Brepo-name%7D/static/media/1.28.d8890c1fe5d4e8c6d299.jpg",
-    "index.html": "/%7Brepo-name%7D/index.html",
-    "main.dbd9bf11.css.map": "/%7Brepo-name%7D/static/css/main.dbd9bf11.css.map",
-    "main.769e937b.js.map": "/%7Brepo-name%7D/static/js/main.769e937b.js.map"
+    "main.css": "/bayshore-musallah-ui/static/css/main.b841f6a7.css",
+    "main.js": "/bayshore-musallah-ui/static/js/main.769e937b.js",
+    "static/media/img-2.jpg": "/bayshore-musallah-ui/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/Services-Bayshore-Musallah.png": "/bayshore-musallah-ui/static/media/Services-Bayshore-Musallah.85dbf7a9ced842c8170b.png",
+    "static/media/Events.png": "/bayshore-musallah-ui/static/media/Events.7710b26d932b755f0842.png",
+    "static/media/img-8.jpg": "/bayshore-musallah-ui/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "static/media/1.28.jpg": "/bayshore-musallah-ui/static/media/1.28.d8890c1fe5d4e8c6d299.jpg",
+    "index.html": "/bayshore-musallah-ui/index.html",
+    "main.b841f6a7.css.map": "/bayshore-musallah-ui/static/css/main.b841f6a7.css.map",
+    "main.769e937b.js.map": "/bayshore-musallah-ui/static/js/main.769e937b.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbd9bf11.css",
+    "static/css/main.b841f6a7.css",
     "static/js/main.769e937b.js"
   ]
 }
